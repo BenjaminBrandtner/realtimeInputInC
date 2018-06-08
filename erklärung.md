@@ -7,6 +7,7 @@ Für Spiele und TUIs (Text-User-Interfaces, also grafisch fortgeschrittenere Pro
 Im folgenden sind drei Lösungen aufgezeigt. Sie beinhalten jeweils C-Quelltext der mit der jeweiligen Lösung realisiert ist. Das Programm ist immer dasselbe: Es bittet um Eingabe des Buchstaben q, ließt bei jedem Tastendruck den Input vom User ein und gibt ihn wieder aus, und beendet sich nach korrekter Eingabe.
 
 ## Windows
+### Conio
 In Windows ist es einfach. In der Header Datei conio.h, deren Bibliothek nicht Teil des C-Standards ist, aber von den meisten Compilern für DOS, Windows3.x, Win32, u.A. mitgebracht wird, sind Funktionen zur Ein-Ausgabe im Terminal definiert.  
 getch() wartet so lange, bis eine Taste gedrückt wird und liest diese ein.  
 [C-Quelltext, nur auf Windows kompilierbar](windowsGetch.c), [kompilierte exe](windowsGetch.exe)
